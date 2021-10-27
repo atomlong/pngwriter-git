@@ -8,10 +8,10 @@ pkgbase = pngwriter-git
 	arch = x86_64
 	license = GPL
 	makedepends = git
+	makedepends = cmake
 	depends = libpng
 	depends = freetype2
 	source = pngwriter-git::git://github.com/pngwriter/pngwriter.git
 	sha256sums = SKIP
 
 pkgname = pngwriter-git
-

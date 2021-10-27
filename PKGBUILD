@@ -10,7 +10,7 @@ install=${pkgname}.install
 license=('GPL')
 arch=('i686' 'x86_64')
 depends=('libpng' 'freetype2')
-makedepends=('git')
+makedepends=('git' 'cmake')
 sha256sums=('SKIP')
 
 pkgver() {
